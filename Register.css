@@ -1,0 +1,61 @@
+/* The entire page should take the background image */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* The actual background image */
+.register-page {
+  background: url('./images/bg.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar stays on top */
+.navbar {
+  z-index: 10;
+}
+
+/* Container centers the card over the background */
+.register-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  backdrop-filter: blur(2px);
+}
+
+/* The card has transparent white background to see the image */
+.register-card {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px 40px;
+}
+
+/* Form styles */
+.form-control:focus {
+  box-shadow: none;
+  border-color: #0bd2d2;
+}
+
+.btn-register {
+  background-color: #1ca9c2;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-register:hover {
+  background-color: #0c1ab9;
+}
+
+.form-icon {
+  margin-right: 10px;
+  color: #21a2e3;
+}

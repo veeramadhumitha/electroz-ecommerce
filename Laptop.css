@@ -1,0 +1,71 @@
+/* Electroz Navbar styling */
+.electroz-navbar {
+  background: linear-gradient(90deg, #1e2c3a, #243848);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.electroz-navbar .navbar-brand {
+  color: #f4d03f !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.electroz-navbar .btn-outline-light {
+  border-color: #f4d03f;
+  color: #f4d03f;
+}
+
+.electroz-navbar .btn-outline-light:hover {
+  background-color: #f4d03f;
+  color: #1e2c3a;
+}
+
+/* Section title */
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #243848;
+}
+
+/* Product card styling */
+.product-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid #ddd;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.product-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Price text */
+.price {
+  color: #1e2c3a;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+/* Add to Cart button */
+.btn-cart {
+  background-color: #1e2c3a;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cart:hover {
+  background-color: #f4d03f;
+  color: #1e2c3a;
+}

@@ -1,0 +1,56 @@
+/* Checkout.css */
+
+body {
+  background-color: #f8f9fa;
+}
+
+.electroz-navbar {
+  background-color: #343a40;
+}
+
+.electroz-navbar .navbar-brand {
+  color: #fff;
+}
+
+.electroz-navbar .navbar-brand:hover {
+  color: #ddd;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+  background-color: #ffffff;
+}
+
+.card .form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.card .form-control {
+  border-radius: 0.5rem;
+  border: 1px solid #ced4da;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.btn-outline-secondary {
+  border-radius: 0.5rem;
+}
+
+h2 {
+  font-weight: 700;
+  color: #343a40;
+}
+
+textarea.form-control {
+  resize: vertical;
+}

@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.forgot-page {
+  background: url('./images/bg.jpg') no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  z-index: 10;
+}
+
+.forgot-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  backdrop-filter: blur(2px);
+}
+
+.forgot-card {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.85);
+  padding: 30px 40px;
+}
+
+.btn-reset {
+  background-color: #1ca9c2;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-reset:hover {
+  background-color: #0c1ab9;
+}

@@ -5,7 +5,6 @@ Electroz is a simple and modern e-commerce website built using **ReactJS**. It f
 ## 🔗 Live Website
 
 [View Live Site](https://veeramadhumitha.github.io/electroz)  
-*(Replace with your actual deployed link if different)*
 
 ## 🛠️ Technologies Used
 
